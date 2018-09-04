@@ -1,8 +1,9 @@
-package com.example.hstallworth3.homework1.app.src.main;
+package com.example.hstallworth3.homework1;
 
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
 import android.annotation.TargetApi;
+import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.support.annotation.NonNull;
 import android.support.design.widget.Snackbar;
@@ -31,9 +32,6 @@ import android.widget.TextView;
 
 import java.util.ArrayList;
 import java.util.List;
-
-import com.example.hstallworth3.homework1.R;
-
 
 import static android.Manifest.permission.READ_CONTACTS;
 
@@ -327,7 +325,7 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
             }
 
             // TODO: register the new account here.
-            return true;
+            return false; //CHANGED
         }
 
         @Override
@@ -337,6 +335,8 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
 
             if (success) {
                 finish();
+                Intent MainIntent = new Intent(LoginActivity.this, MapsActivity.class);
+                LoginActivity.this.startActivity(MainIntent);
             } else {
                 mPasswordView.setError(getString(R.string.error_incorrect_password));
                 mPasswordView.requestFocus();
