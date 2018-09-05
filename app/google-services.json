@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "164667225354",
+    "firebase_url": "https://effortless-lock-215221.firebaseio.com",
+    "project_id": "effortless-lock-215221",
+    "storage_bucket": "effortless-lock-215221.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:164667225354:android:557274fc003ba608",
+        "android_client_info": {
+          "package_name": "com.example.hstallworth3.homework1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "164667225354-0dr3eklili1shl5b6ofbvf18vcn17b7q.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.hstallworth3.homework1",
+            "certificate_hash": "d94b3e7db2e9e6bf2fa6494439a7c22087daa554"
+          }
+        },
+        {
+          "client_id": "164667225354-g5dcj1vlh904gcilloe1tgmuocu82gga.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBHBYUXalv9eqquaizrRtg4hQxbXOTQJbA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "164667225354-g5dcj1vlh904gcilloe1tgmuocu82gga.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
